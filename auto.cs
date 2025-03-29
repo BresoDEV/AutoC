@@ -61,6 +61,29 @@ namespace Automacao
                         string[] ints = b.Split(' ');
                         mover_mouse_relativo(Convert.ToInt32(ints[0]), Convert.ToInt32(ints[1]));
                     }
+
+
+                    if (line.Contains("mover_mouse_e_clicar_esquerdo "))
+                    {
+                        string b = line.Replace("mover_mouse_e_clicar_esquerdo ", "");
+                        string[] ints = b.Split(' ');
+                        mover_mouse_e_clicar_esquerdo(Convert.ToInt32(ints[0]), Convert.ToInt32(ints[1]));
+                    }
+                    if (line.Contains("mover_mouse_e_clicar_direito "))
+                    {
+                        string b = line.Replace("mover_mouse_e_clicar_direito ", "");
+                        string[] ints = b.Split(' ');
+                        mover_mouse_e_clicar_direito(Convert.ToInt32(ints[0]), Convert.ToInt32(ints[1]));
+                    }
+                    if (line.Contains("mover_mouse_e_duplo_click "))
+                    {
+                        string b = line.Replace("mover_mouse_e_duplo_click ", "");
+                        string[] ints = b.Split(' ');
+                        mover_mouse_e_duplo_click(Convert.ToInt32(ints[0]), Convert.ToInt32(ints[1]));
+                    }
+
+
+
                     if (line.Contains("digitar_teclado"))
                     {
                         string b = line;
@@ -130,14 +153,42 @@ namespace Automacao
                     {
                         AltTab();
                     }
-
-
-                    if (line.Contains("CTRL + "))
+                    
+                    if (line.Contains("Enter;"))
                     {
-                        string b = line;
-                        b = b.Replace("CTRL + ", "");
-                        b = b.Replace("\n", "");
-                        ctrl(b);
+                        Enter();
+                    }
+
+
+                    if (line.Contains("SegurarCTRL;"))
+                    {
+                        SegurarCTRL();
+                    }
+                    if (line.Contains("SoltarCTRL;"))
+                    {
+                        SoltarCTRL();
+                    }
+                    
+
+                    if (line.Contains("SegurarALT;"))
+                    {
+                        SegurarALT();
+                    }
+                    if (line.Contains("SoltarALT;"))
+                    {
+                        SoltarALT();
+                    }
+                    if (line.Contains("SegurarSHIFT;"))
+                    {
+                        SegurarSHIFT();
+                    }
+                    if (line.Contains("SoltarSHIFT;"))
+                    {
+                        SoltarSHIFT();
+                    }
+                    if (line.Contains("soltar_todas_teclas;"))
+                    {
+                        soltar_todas_teclas();
                     }
 
                 }
@@ -200,6 +251,28 @@ namespace Automacao
             //MessageBox.Show("move_and_L_click = -" + x + "-" + y+"-");
             Thread.Sleep(tempoDelay);
             Cursor.Position = new Point(x, y);
+        }
+
+        public static void mover_mouse_e_clicar_esquerdo(int x, int y)
+        {
+            Thread.Sleep(tempoDelay);
+            Cursor.Position = new Point(x, y);
+            Thread.Sleep(500);
+            click_mouse_esquerdo_padrao();
+        } 
+        public static void mover_mouse_e_duplo_click(int x, int y)
+        {
+            Thread.Sleep(tempoDelay);
+            Cursor.Position = new Point(x, y);
+            Thread.Sleep(500);
+            duplo_click_mouse();
+        }
+        public static void mover_mouse_e_clicar_direito(int x, int y)
+        {
+            Thread.Sleep(tempoDelay);
+            Cursor.Position = new Point(x, y);
+            Thread.Sleep(500);
+            click_mouse_direito_padrao();
         }
         public static void digitar_teclado(string texto)
         {
@@ -361,11 +434,75 @@ namespace Automacao
             // Soltar Ctrl
             keybd_event((byte)teclas.VK_MENU, 0, KEYEVENTF_KEYUP, 0);
 
-
-
         }
 
+        public static void Enter()
+        {
+            Thread.Sleep(tempoDelay);
+            //SendKeys.SendWait("^c");
+            keybd_event((byte)teclas.VK_RETURN, 0, KEYEVENTF_KEYDOWN, 0);
 
+            keybd_event((byte)teclas.VK_RETURN, 0, KEYEVENTF_KEYUP, 0);
+
+        }
+        public static void SegurarCTRL()
+        {
+            Thread.Sleep(tempoDelay);
+            //SendKeys.SendWait("^c");
+            keybd_event((byte)teclas.VK_CONTROL, 0, KEYEVENTF_KEYDOWN, 0);
+        }
+        public static void SoltarCTRL()
+        {
+            Thread.Sleep(tempoDelay);
+            //SendKeys.SendWait("^c");
+            keybd_event((byte)teclas.VK_CONTROL, 0, KEYEVENTF_KEYUP, 0);
+        }
+        public static void SegurarALT()
+        {
+            Thread.Sleep(tempoDelay);
+            //SendKeys.SendWait("^c");
+            keybd_event((byte)teclas.VK_MENU, 0, KEYEVENTF_KEYDOWN, 0);
+        }
+        public static void SoltarALT()
+        {
+            Thread.Sleep(tempoDelay);
+            //SendKeys.SendWait("^c");
+            keybd_event((byte)teclas.VK_MENU, 0, KEYEVENTF_KEYUP, 0);
+        }
+        public static void SegurarSHIFT()
+        {
+            Thread.Sleep(tempoDelay);
+            //SendKeys.SendWait("^c");
+            keybd_event((byte)teclas.VK_SHIFT, 0, KEYEVENTF_KEYDOWN, 0);
+        }
+        public static void SoltarSHIFT()
+        {
+            Thread.Sleep(tempoDelay);
+            //SendKeys.SendWait("^c");
+            keybd_event((byte)teclas.VK_SHIFT, 0, KEYEVENTF_KEYUP, 0);
+        }
+
+        public static void soltar_todas_teclas()
+        {
+            Thread.Sleep(tempoDelay);
+            int[] teclas =
+            {
+                1,2,3,4,5,6,8,9,12,13,16,17,18,19,20,27,32,33,34,
+                35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,
+                51,52,53,54,55,56,57,65,66,67,68,69,70,71,72,73,
+                74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,
+                90,96,97,98,99,100,101,102,103,104,105,112,113,
+                114,115,116,117,118,119,120,121,122,123,124,125,
+                126,127,128,129,130,131,132,133,134,135,144,145,
+                160,161,162,163,164,165,173,174,175,176,177,178,
+                179,180,181,182,183,186,187,188,189,190,191,192,
+                219,220,221,222,229,
+            };
+            foreach (var item in teclas)
+            {
+                keybd_event((byte)item, 0, KEYEVENTF_KEYUP, 0);
+            }
+        }
 
 
 
@@ -412,69 +549,14 @@ namespace Automacao
 
 
 
+        
 
-        public static void ctrl(string tecla)
-        {
-            Thread.Sleep(tempoDelay);
-            //SendKeys.SendWait("^c");
-            keybd_event((byte)teclas.VK_CONTROL, 0, KEYEVENTF_KEYDOWN, 0);
+        
 
-            // Pressionar C
-            keybd_event(descobrirVirtualCode(tecla), 0, KEYEVENTF_KEYDOWN, 0);
 
-            // Soltar C
-            keybd_event(descobrirVirtualCode(tecla), 0, KEYEVENTF_KEYUP, 0);
-
-            // Soltar Ctrl
-            keybd_event((byte)teclas.VK_CONTROL, 0, KEYEVENTF_KEYUP, 0);
-
-        }
-
-        public static byte descobrirVirtualCode(string tecla)
-        {
-            byte offset = 0x0;
-            switch (tecla.ToLower())
-            {
-                case "backspace":   offset = (byte)teclas.VK_BACK;  break;
-                case "tab":   offset = (byte)teclas.VK_TAB;  break;
-                case "enter":   offset = (byte)teclas.VK_RETURN;  break;
-                case "shift":   offset = (byte)teclas.VK_SHIFT;  break;
-                case "alt":   offset = (byte)teclas.VK_MENU;  break;
-                case "capslock":   offset = (byte)teclas.VK_CAPITAL;  break;
-                case "caps-lock":   offset = (byte)teclas.VK_CAPITAL;  break;
-                case "caps lock":   offset = (byte)teclas.VK_CAPITAL;  break;
-                case "esq":   offset = (byte)teclas.VK_ESCAPE;  break;
-                case "espaco":   offset = (byte)teclas.VK_SPACE;  break;
-                case "pageup":   offset = (byte)teclas.VK_PRIOR;  break;
-                case "page-up":   offset = (byte)teclas.VK_PRIOR;  break;
-                case "page up":   offset = (byte)teclas.VK_PRIOR;  break;
-                case "pagedown":   offset = (byte)teclas.VK_NEXT;  break;
-                case "page-down":   offset = (byte)teclas.VK_NEXT;  break;
-                case "page down":   offset = (byte)teclas.VK_NEXT;  break;
-                case "end":   offset = (byte)teclas.VK_END;  break;
-                case "home":   offset = (byte)teclas.VK_HOME;  break;
-                case "seta esquerda":   offset = (byte)teclas.VK_LEFT;  break;
-                case "seta direita":   offset = (byte)teclas.VK_RIGHT;  break;
-                case "seta cima":   offset = (byte)teclas.VK_UP;  break;
-                case "seta baixo":   offset = (byte)teclas.VK_DOWN;  break;
-                //case "":   offset = (byte)teclas.;  break;
-                //case "":   offset = (byte)teclas.;  break;
-                //case "":   offset = (byte)teclas.;  break;
-                //case "":   offset = (byte)teclas.;  break;
-                //case "":   offset = (byte)teclas.;  break;
-                //case "":   offset = (byte)teclas.;  break;
-                //case "":   offset = (byte)teclas.;  break;
-                //case "":   offset = (byte)teclas.;  break;
-                //case "":   offset = (byte)teclas.;  break;
-                //case "":   offset = (byte)teclas.;  break;
-                //case "":   offset = (byte)teclas.;  break;
-                //case "":   offset = (byte)teclas.;  break;
-            }
-            return offset;
-        }
     }
 
-    
+
 
     public enum teclas
     {
