@@ -1,0 +1,17 @@
+C:\Users\eduar\Desktop\ChangeOrgBot\ChangeOrgBot\bin\Debug\net7.0-windows\ChangeOrgBot.exe
+C:\Users\eduar\Desktop\ChangeOrgBot\ChangeOrgBot\bin\Debug\net7.0-windows\ChangeOrgBot.deps.json
+C:\Users\eduar\Desktop\ChangeOrgBot\ChangeOrgBot\bin\Debug\net7.0-windows\ChangeOrgBot.runtimeconfig.json
+C:\Users\eduar\Desktop\ChangeOrgBot\ChangeOrgBot\bin\Debug\net7.0-windows\ChangeOrgBot.dll
+C:\Users\eduar\Desktop\ChangeOrgBot\ChangeOrgBot\bin\Debug\net7.0-windows\ChangeOrgBot.pdb
+C:\Users\eduar\Desktop\ChangeOrgBot\ChangeOrgBot\obj\Debug\net7.0-windows\ChangeOrgBot.csproj.AssemblyReference.cache
+C:\Users\eduar\Desktop\ChangeOrgBot\ChangeOrgBot\obj\Debug\net7.0-windows\ChangeOrgBot.Form1.resources
+C:\Users\eduar\Desktop\ChangeOrgBot\ChangeOrgBot\obj\Debug\net7.0-windows\ChangeOrgBot.csproj.GenerateResource.cache
+C:\Users\eduar\Desktop\ChangeOrgBot\ChangeOrgBot\obj\Debug\net7.0-windows\ChangeOrgBot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eduar\Desktop\ChangeOrgBot\ChangeOrgBot\obj\Debug\net7.0-windows\ChangeOrgBot.AssemblyInfoInputs.cache
+C:\Users\eduar\Desktop\ChangeOrgBot\ChangeOrgBot\obj\Debug\net7.0-windows\ChangeOrgBot.AssemblyInfo.cs
+C:\Users\eduar\Desktop\ChangeOrgBot\ChangeOrgBot\obj\Debug\net7.0-windows\ChangeOrgBot.csproj.CoreCompileInputs.cache
+C:\Users\eduar\Desktop\ChangeOrgBot\ChangeOrgBot\obj\Debug\net7.0-windows\ChangeOrgBot.dll
+C:\Users\eduar\Desktop\ChangeOrgBot\ChangeOrgBot\obj\Debug\net7.0-windows\refint\ChangeOrgBot.dll
+C:\Users\eduar\Desktop\ChangeOrgBot\ChangeOrgBot\obj\Debug\net7.0-windows\ChangeOrgBot.pdb
+C:\Users\eduar\Desktop\ChangeOrgBot\ChangeOrgBot\obj\Debug\net7.0-windows\ChangeOrgBot.genruntimeconfig.cache
+C:\Users\eduar\Desktop\ChangeOrgBot\ChangeOrgBot\obj\Debug\net7.0-windows\ref\ChangeOrgBot.dll
