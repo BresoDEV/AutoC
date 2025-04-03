@@ -217,7 +217,7 @@ namespace ChangeOrgBot
                     auto.click_mouse_esquerdo_padrao();
                     //---------------------------
 
-                    auto.scroll_baixo(480);
+                    auto.scroll_baixo(12);
 
 
                     auto.mover_mouse(1057, 204);
@@ -270,6 +270,29 @@ namespace ChangeOrgBot
                     auto.definir_delay(1000);
                     auto.mover_mouse(793, 786);
                     auto.click_mouse_esquerdo_padrao();
+
+
+
+                    //like no comentario
+                    
+                    auto.mover_mouse(731, 53);
+                    auto.definir_delay(3000);
+                    auto.click_mouse_esquerdo_padrao();
+                    auto.digitar_teclado("^v");
+                    // auto.digitar_teclado("https://www.change.org/p/nomear-os-aprovados-na-funda%C3%A7%C3%A3o-de-assist%C3%AAncia-social-de-caxias-do-sul?source_location=search");
+                    auto.digitar_teclado("{ENTER}");
+                    auto.definir_delay(7000);
+
+                    auto.mover_mouse(467, 199);
+                    auto.click_mouse_esquerdo_padrao();
+                    auto.definir_delay(2000);
+                    auto.scroll_baixo(10000);
+                    auto.mover_mouse(427, 343);
+                    auto.click_mouse_esquerdo_padrao();
+                    //------------------------
+
+
+                    auto.definir_delay(4000);
                     auto.digitar_teclado("%{F4}");
 
                     ct++;
