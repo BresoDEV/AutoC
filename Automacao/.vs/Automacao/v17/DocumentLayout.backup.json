@@ -1,22 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\Automacao\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\AppData\\Roaming\\Windows\\Automacao\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B0AEB6F-7F0D-4F48-8CAE-0B781F6BDFA5}|Automacao\\Automacao.csproj|c:\\users\\user\\source\\repos\\automacao\\automacao\\auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5B0AEB6F-7F0D-4F48-8CAE-0B781F6BDFA5}|Automacao\\Automacao.csproj|c:\\users\\user\\appdata\\roaming\\windows\\automacao\\automacao\\auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B0AEB6F-7F0D-4F48-8CAE-0B781F6BDFA5}|Automacao\\Automacao.csproj|solutionrelative:automacao\\auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B0AEB6F-7F0D-4F48-8CAE-0B781F6BDFA5}|Automacao\\Automacao.csproj|c:\\users\\user\\source\\repos\\automacao\\automacao\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5B0AEB6F-7F0D-4F48-8CAE-0B781F6BDFA5}|Automacao\\Automacao.csproj|c:\\users\\user\\appdata\\roaming\\windows\\automacao\\automacao\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B0AEB6F-7F0D-4F48-8CAE-0B781F6BDFA5}|Automacao\\Automacao.csproj|solutionrelative:automacao\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B0AEB6F-7F0D-4F48-8CAE-0B781F6BDFA5}|Automacao\\Automacao.csproj|C:\\Users\\User\\source\\repos\\Automacao\\automacao\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5B0AEB6F-7F0D-4F48-8CAE-0B781F6BDFA5}|Automacao\\Automacao.csproj|C:\\Users\\User\\AppData\\Roaming\\Windows\\Automacao\\automacao\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5B0AEB6F-7F0D-4F48-8CAE-0B781F6BDFA5}|Automacao\\Automacao.csproj|solutionrelative:automacao\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\Automacao\\Automacao\\bin\\Debug\\net8.0-windows\\script.breso||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Automacao\\bin\\Debug\\net8.0-windows\\script.breso||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,53 +22,42 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Automacao\\Automacao\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\User\\AppData\\Roaming\\Windows\\Automacao\\Automacao\\Form1.cs",
               "RelativeDocumentMoniker": "Automacao\\Form1.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\Automacao\\Automacao\\Form1.cs",
+              "ToolTip": "C:\\Users\\User\\AppData\\Roaming\\Windows\\Automacao\\Automacao\\Form1.cs",
               "RelativeToolTip": "Automacao\\Form1.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAUwDoAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAADwvxYAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T03:27:50.103Z",
+              "WhenOpened": "2025-04-07T05:08:20.398Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Form1.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Automacao\\Automacao\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\User\\AppData\\Roaming\\Windows\\Automacao\\Automacao\\Form1.cs",
               "RelativeDocumentMoniker": "Automacao\\Form1.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\Automacao\\Automacao\\Form1.cs [Projeto]",
+              "ToolTip": "C:\\Users\\User\\AppData\\Roaming\\Windows\\Automacao\\Automacao\\Form1.cs [Projeto]",
               "RelativeToolTip": "Automacao\\Form1.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T03:26:42.986Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "script.breso",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Automacao\\Automacao\\bin\\Debug\\net8.0-windows\\script.breso",
-              "RelativeDocumentMoniker": "Automacao\\bin\\Debug\\net8.0-windows\\script.breso",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\Automacao\\Automacao\\bin\\Debug\\net8.0-windows\\script.breso",
-              "RelativeToolTip": "Automacao\\bin\\Debug\\net8.0-windows\\script.breso",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-30T05:35:14.539Z"
+              "WhenOpened": "2025-04-03T03:26:42.986Z",
+              "EditorCaption": " [Projeto]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "auto.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Automacao\\Automacao\\auto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\AppData\\Roaming\\Windows\\Automacao\\Automacao\\auto.cs",
               "RelativeDocumentMoniker": "Automacao\\auto.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\Automacao\\Automacao\\auto.cs",
+              "ToolTip": "C:\\Users\\User\\AppData\\Roaming\\Windows\\Automacao\\Automacao\\auto.cs",
               "RelativeToolTip": "Automacao\\auto.cs",
-              "ViewState": "AgIAACMDAAAAAAAAAADwvzgDAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIoBAAAAAAAAAAAQwJYBAABjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-26T02:17:53.992Z",
               "EditorCaption": ""

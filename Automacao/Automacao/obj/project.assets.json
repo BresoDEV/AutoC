@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\Automacao\\Automacao\\Automacao.csproj",
+      "projectUniqueName": "C:\\Users\\User\\AppData\\Roaming\\Windows\\Automacao\\Automacao\\Automacao.csproj",
       "projectName": "Automacao",
-      "projectPath": "C:\\Users\\User\\source\\repos\\Automacao\\Automacao\\Automacao.csproj",
+      "projectPath": "C:\\Users\\User\\AppData\\Roaming\\Windows\\Automacao\\Automacao\\Automacao.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\Automacao\\Automacao\\obj\\",
+      "outputPath": "C:\\Users\\User\\AppData\\Roaming\\Windows\\Automacao\\Automacao\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
