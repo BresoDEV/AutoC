@@ -32,3 +32,20 @@ C:\Users\eduar\Documents\GitHub\AutoC\ChangeOrgBot\ChangeOrgBot\obj\Debug\net7.0
 C:\Users\eduar\Documents\GitHub\AutoC\ChangeOrgBot\ChangeOrgBot\obj\Debug\net7.0-windows\ChangeOrgBot.pdb
 C:\Users\eduar\Documents\GitHub\AutoC\ChangeOrgBot\ChangeOrgBot\obj\Debug\net7.0-windows\ChangeOrgBot.genruntimeconfig.cache
 C:\Users\eduar\Documents\GitHub\AutoC\ChangeOrgBot\ChangeOrgBot\obj\Debug\net7.0-windows\ref\ChangeOrgBot.dll
+D:\Github Repositorios\AutoC\ChangeOrgBot\ChangeOrgBot\bin\Debug\net7.0-windows\ChangeOrgBot.exe
+D:\Github Repositorios\AutoC\ChangeOrgBot\ChangeOrgBot\bin\Debug\net7.0-windows\ChangeOrgBot.deps.json
+D:\Github Repositorios\AutoC\ChangeOrgBot\ChangeOrgBot\bin\Debug\net7.0-windows\ChangeOrgBot.runtimeconfig.json
+D:\Github Repositorios\AutoC\ChangeOrgBot\ChangeOrgBot\bin\Debug\net7.0-windows\ChangeOrgBot.dll
+D:\Github Repositorios\AutoC\ChangeOrgBot\ChangeOrgBot\bin\Debug\net7.0-windows\ChangeOrgBot.pdb
+D:\Github Repositorios\AutoC\ChangeOrgBot\ChangeOrgBot\obj\Debug\net7.0-windows\ChangeOrgBot.csproj.AssemblyReference.cache
+D:\Github Repositorios\AutoC\ChangeOrgBot\ChangeOrgBot\obj\Debug\net7.0-windows\ChangeOrgBot.Form1.resources
+D:\Github Repositorios\AutoC\ChangeOrgBot\ChangeOrgBot\obj\Debug\net7.0-windows\ChangeOrgBot.csproj.GenerateResource.cache
+D:\Github Repositorios\AutoC\ChangeOrgBot\ChangeOrgBot\obj\Debug\net7.0-windows\ChangeOrgBot.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github Repositorios\AutoC\ChangeOrgBot\ChangeOrgBot\obj\Debug\net7.0-windows\ChangeOrgBot.AssemblyInfoInputs.cache
+D:\Github Repositorios\AutoC\ChangeOrgBot\ChangeOrgBot\obj\Debug\net7.0-windows\ChangeOrgBot.AssemblyInfo.cs
+D:\Github Repositorios\AutoC\ChangeOrgBot\ChangeOrgBot\obj\Debug\net7.0-windows\ChangeOrgBot.csproj.CoreCompileInputs.cache
+D:\Github Repositorios\AutoC\ChangeOrgBot\ChangeOrgBot\obj\Debug\net7.0-windows\ChangeOrgBot.dll
+D:\Github Repositorios\AutoC\ChangeOrgBot\ChangeOrgBot\obj\Debug\net7.0-windows\refint\ChangeOrgBot.dll
+D:\Github Repositorios\AutoC\ChangeOrgBot\ChangeOrgBot\obj\Debug\net7.0-windows\ChangeOrgBot.pdb
+D:\Github Repositorios\AutoC\ChangeOrgBot\ChangeOrgBot\obj\Debug\net7.0-windows\ChangeOrgBot.genruntimeconfig.cache
+D:\Github Repositorios\AutoC\ChangeOrgBot\ChangeOrgBot\obj\Debug\net7.0-windows\ref\ChangeOrgBot.dll

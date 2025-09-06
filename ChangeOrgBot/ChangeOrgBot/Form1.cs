@@ -27,11 +27,11 @@ namespace ChangeOrgBot
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            
             textBox1.Focus();
             textBox1.SelectAll();
 
-            auto.wait(1000);
+           // auto.wait(1000);
             auto.digitar_teclado("^c");
             auto.wait(5000);
 
@@ -182,7 +182,8 @@ namespace ChangeOrgBot
 
 
                     Random rand = new Random();
-                    auto.wait(rand.Next(2000, 50000));
+                    //auto.wait(rand.Next(2000, 50000));
+                    auto.wait(rand.Next(2000, 5000));
 
                     if (Cursor.Position.X == 0)
                     {
@@ -212,48 +213,53 @@ namespace ChangeOrgBot
 
 
                     //aceitar cookies
-                    auto.mover_mouse(1064, 742);
+                    auto.mover_mouse(1097, 674);
                     auto.definir_delay(1000);
                     auto.click_mouse_esquerdo_padrao();
                     //---------------------------
 
                     auto.scroll_baixo(12);
 
-
-                    auto.mover_mouse(1057, 204);
+                    auto.definir_delay(5000);
+                    auto.mover_mouse(1087, 167);//seleciona o campo do nome
                     auto.click_mouse_esquerdo_padrao();
                     auto.digitar_teclado(nome[0]);
 
-                    auto.mover_mouse(1057, 282);
+
+                    auto.definir_delay(1000);
+                    auto.mover_mouse(1088, 252);//seleciona o campo do ssobrenome
                     auto.click_mouse_esquerdo_padrao();
                     auto.digitar_teclado(nome[1]);
 
-                    auto.mover_mouse(1057, 349);
+                    auto.definir_delay(1000);
+                    auto.mover_mouse(1114, 334);//seleciona o campo d o email
                     auto.click_mouse_esquerdo_padrao();
                     auto.digitar_teclado(nome[2]);
                     //----------------------------------
-
-                    auto.mover_mouse(1086, 520);
+                    auto.definir_delay(1000);
+                    auto.mover_mouse(1066, 502);// Não, prefiro não acompanhar as novidades desta petição ou de outras petições relevantes.
                     auto.click_mouse_esquerdo_padrao();
 
-
-                    auto.mover_mouse(1095, 680);
+                    auto.definir_delay(1000);
+                    auto.mover_mouse(1122, 671);//clica em ASSINAR
+                    auto.click_mouse_esquerdo_padrao();
 
                     //----------------------
 
                     auto.definir_delay(6000);
-                    auto.click_mouse_esquerdo_padrao();
+                    //auto.click_mouse_esquerdo_padrao();
                     auto.scroll_baixo(10000);
-                    auto.mover_mouse(797, 806);
+                    auto.mover_mouse(797, 809); //quer doar dinehiro?
                     auto.click_mouse_esquerdo_padrao();
 
 
                     auto.scroll_baixo(10000);
-                    auto.mover_mouse(503, 570);
+                    auto.mover_mouse(786, 786);//adicione uma mensagem para aumentar o impacto da sua assinatura!
                     auto.click_mouse_esquerdo_padrao();
 
-                    auto.mover_mouse(797, 806);
-                    auto.click_mouse_esquerdo_padrao();
+                   // auto.wait(5000);
+                   // auto.mover_mouse(797, 806);
+                   // auto.click_mouse_esquerdo_padrao();
                     //------------------------------------------
                     auto.definir_delay(1000);
                     auto.wait(5000);//pra evitar clicar no icone do facebook
