@@ -182,8 +182,7 @@ namespace ChangeOrgBot
 
 
                     Random rand = new Random();
-                    //auto.wait(rand.Next(2000, 50000));
-                    auto.wait(rand.Next(2000, 5000));
+                     auto.wait(rand.Next(2000, 50000)); 
 
                     if (Cursor.Position.X == 0)
                     {
@@ -196,6 +195,7 @@ namespace ChangeOrgBot
 
                     string[] nome = gerar();
                     label2.Text = nome[0] + Environment.NewLine + nome[1] + Environment.NewLine + nome[2];
+                    File.AppendAllText("log.txt", "Nome: " + nome[0] + "\nSobrenome: " + nome[1] + "\nNome Completo:: " + nome[0] + " " + nome[1] + "\nEmail: " + nome[2] + "\n-----------\n");
 
 
                     auto.definir_delay(2000);
