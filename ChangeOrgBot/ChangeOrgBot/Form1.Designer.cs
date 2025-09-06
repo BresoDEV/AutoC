@@ -42,6 +42,7 @@
             groupBox1 = new GroupBox();
             numericUpDown2 = new NumericUpDown();
             button2 = new Button();
+            button3 = new Button();
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)numericUpDown2).BeginInit();
@@ -75,7 +76,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 9.75F);
+            label1.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label1.ForeColor = SystemColors.ButtonFace;
             label1.Location = new Point(12, 136);
             label1.Name = "label1";
@@ -86,7 +87,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 9.75F);
+            label2.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label2.ForeColor = SystemColors.ButtonFace;
             label2.Location = new Point(12, 165);
             label2.Name = "label2";
@@ -154,7 +155,7 @@
             groupBox1.ForeColor = SystemColors.ButtonFace;
             groupBox1.Location = new Point(242, 12);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(80, 94);
+            groupBox1.Size = new Size(80, 110);
             groupBox1.TabIndex = 10;
             groupBox1.TabStop = false;
             groupBox1.Text = "Scrool mouse";
@@ -180,12 +181,24 @@
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
+            // button3
+            // 
+            button3.ForeColor = SystemColors.ActiveCaptionText;
+            button3.Location = new Point(148, 231);
+            button3.Name = "button3";
+            button3.Size = new Size(174, 23);
+            button3.TabIndex = 11;
+            button3.Text = "Teste de Log";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Gray;
-            ClientSize = new Size(333, 257);
+            ClientSize = new Size(331, 257);
+            Controls.Add(button3);
             Controls.Add(groupBox1);
             Controls.Add(label3);
             Controls.Add(checkBox1);
@@ -222,5 +235,6 @@
         private GroupBox groupBox1;
         private NumericUpDown numericUpDown2;
         private Button button2;
+        private Button button3;
     }
 }

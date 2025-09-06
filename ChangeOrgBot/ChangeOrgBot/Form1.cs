@@ -27,11 +27,11 @@ namespace ChangeOrgBot
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+
             textBox1.Focus();
             textBox1.SelectAll();
 
-           // auto.wait(1000);
+            // auto.wait(1000);
             auto.digitar_teclado("^c");
             auto.wait(5000);
 
@@ -257,9 +257,9 @@ namespace ChangeOrgBot
                     auto.mover_mouse(786, 786);//adicione uma mensagem para aumentar o impacto da sua assinatura!
                     auto.click_mouse_esquerdo_padrao();
 
-                   // auto.wait(5000);
-                   // auto.mover_mouse(797, 806);
-                   // auto.click_mouse_esquerdo_padrao();
+                    // auto.wait(5000);
+                    // auto.mover_mouse(797, 806);
+                    // auto.click_mouse_esquerdo_padrao();
                     //------------------------------------------
                     auto.definir_delay(1000);
                     auto.wait(5000);//pra evitar clicar no icone do facebook
@@ -280,7 +280,7 @@ namespace ChangeOrgBot
 
 
                     //like no comentario
-                    
+
                     auto.mover_mouse(731, 53);
                     auto.definir_delay(3000);
                     auto.click_mouse_esquerdo_padrao();
@@ -526,6 +526,12 @@ namespace ChangeOrgBot
         {
             auto.wait(3000);
             auto.scroll_baixo((int)numericUpDown2.Value);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            string[] nome = gerar();
+            File.AppendAllText("log.txt", "Nome: "+nome[0] + "\nSobrenome: " + nome[1] + "\nNome Completo:: "+ nome[0] + " " + nome[1] + "\nEmail: " + nome[2] +"\n-----------\n");
         }
     }
 }

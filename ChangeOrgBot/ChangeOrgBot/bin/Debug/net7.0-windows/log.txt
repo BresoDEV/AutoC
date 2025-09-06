@@ -1,0 +1,29 @@
+Nome: Lavínia
+Sobrenome: Gonçalves Rizzo
+Nome Completo:: Lavínia Gonçalves Rizzo
+Email: laviniarizzo.3@hotmail.com
+-----------Nome: Geovanna
+Sobrenome: Cardoso
+Nome Completo:: Geovanna Cardoso
+Email: geovannacardoso@gmail.com
+-----------Nome: Aurora
+Sobrenome: Rocha De Luca
+Nome Completo:: Aurora Rocha De Luca
+Email: aurora1luca@hotmail.com
+-----------Nome: Francisca
+Sobrenome: Maia
+Nome Completo:: Francisca Maia
+Email: francisca.maia3@gmail.com
+-----------Nome: Elisa
+Sobrenome: Santos Neto
+Nome Completo:: Elisa Santos Neto
+Email: neto2elisa@gmail.com
+-----------Nome: Edson
+Sobrenome: Azevedo Matos
+Nome Completo:: Edson Azevedo Matos
+Email: edson3matos@hotmail.com
+-----------Nome: Thiago
+Sobrenome: Oliveira Diniz
+Nome Completo:: Thiago Oliveira Diniz
+Email: thiago.diniz1@outlook.com
+-----------
